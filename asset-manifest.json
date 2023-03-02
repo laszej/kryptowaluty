@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kryptowaluty/static/css/main.34c8046c.css",
-    "main.js": "/kryptowaluty/static/js/main.9fc03bd6.js",
+    "main.js": "/kryptowaluty/static/js/main.80bbb46f.js",
     "static/media/bitcoin.svg": "/kryptowaluty/static/media/bitcoin.73f2339883323c36edd0e8131dcffa92.svg",
     "index.html": "/kryptowaluty/index.html",
     "main.34c8046c.css.map": "/kryptowaluty/static/css/main.34c8046c.css.map",
-    "main.9fc03bd6.js.map": "/kryptowaluty/static/js/main.9fc03bd6.js.map"
+    "main.80bbb46f.js.map": "/kryptowaluty/static/js/main.80bbb46f.js.map"
   },
   "entrypoints": [
     "static/css/main.34c8046c.css",
-    "static/js/main.9fc03bd6.js"
+    "static/js/main.80bbb46f.js"
   ]
 }
