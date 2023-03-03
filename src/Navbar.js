@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-custom">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-custom" >
       <div className="container-fluid">
-        <img src={Bitcoin} width={64} height={64}/>
+        <img src={Bitcoin} width={64} height={64} alt="bitcoin"/>
         <h2 className="navbar-brand" style={{marginLeft: "1rem"}}>Kryptowaluty</h2>
         <button
           className="navbar-toggler"

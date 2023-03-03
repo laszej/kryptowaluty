@@ -1,12 +1,10 @@
 import React, {useState, useEffect} from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const Coins = () => {
 
     const [coins, setCoins] = useState([])
-
-    const { id } = useParams();
 
     useEffect(()=>{
         const fetchCoins = async ()=>{
@@ -27,8 +25,8 @@ const Coins = () => {
     {coins.map((coin)=>(
      <Link to={`/coin/${coin.id}`} key={coin.id} style={{display: "flex", flexDirection: "column", margin: "3rem", alignItems: "center"}}>
         <h3>{coin.name}</h3>
-        <img src={coin.icon} width={100} height={100}/>
-        <h6>Przybliżona cena: {parseInt(coin.price)}$</h6>
+        <img src={coin.icon} width={100} height={100} alt={coin.name}/>
+        <h6>Przybliżona cena: {parseInt(coin.price)} $</h6>
         <h6>Szczegóły</h6>
      </Link>) 
      )}

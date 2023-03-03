@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import { useHistory, useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
+
 
 const Coins = () => {
 
@@ -21,14 +22,20 @@ const Coins = () => {
 
   return (
     <>
-    
-
- 
      <div key={coin.id} style={{display: "flex", flexDirection: "column", margin: "3rem", alignItems: "center"}}>
         <h3>{coin.name}</h3>
-        <img src={coin.icon} width={100} height={100}/>
-        <h6>Przybliżona cena: {parseInt(coin.price)}$</h6>
-        <h6>Szczegóły</h6>
+        <img src={coin.icon} width={100} height={100} style={{marginBottom: "1rem"}}/>
+        <h6>Cena: {coin.price} $</h6>
+
+        <h6>Zmiana w ciągu godziny: {coin.priceChange1h} $</h6>
+
+        <h6>Zmiana ceny od wczoraj: {coin.priceChange1d} $</h6>
+
+        <h6>Zmiana w ciągu tygodnia: {coin.priceChange1w} $</h6>
+
+        <a href={coin.websiteUrl}>Strona kryptowaluty</a>
+
+        <Link to="/coins" style={{marginTop: "1rem"}}>powrót</Link>
   
     
      </div>
