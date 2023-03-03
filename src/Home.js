@@ -10,7 +10,6 @@ const Home = () => {
       
       <p className="lead">Wszystkie informacje o kryptowalutach pobierane są w czasie rzeczywistym byś miał/a jak najbardziej aktualną wiedzę!</p>
       
-
       <p className="lead">Strona ma charakter wyłącznie informacyjny i nie może być traktowana jako wyznacznik do podejmowania decyzji inwestycyjnych.</p>
       
       <p className="lead">
