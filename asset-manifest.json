@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.34c8046c.css",
-    "main.js": "/static/js/main.22d6fcc3.js",
+    "main.js": "/static/js/main.e1f69a7a.js",
     "static/media/bitcoin.svg": "/static/media/bitcoin.73f2339883323c36edd0e8131dcffa92.svg",
     "index.html": "/index.html",
     "main.34c8046c.css.map": "/static/css/main.34c8046c.css.map",
-    "main.22d6fcc3.js.map": "/static/js/main.22d6fcc3.js.map"
+    "main.e1f69a7a.js.map": "/static/js/main.e1f69a7a.js.map"
   },
   "entrypoints": [
     "static/css/main.34c8046c.css",
-    "static/js/main.22d6fcc3.js"
+    "static/js/main.e1f69a7a.js"
   ]
 }
