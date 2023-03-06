@@ -13,7 +13,7 @@ const Home = () => {
       <p className="lead">Strona ma charakter wyłącznie informacyjny i nie może być traktowana jako wyznacznik do podejmowania decyzji inwestycyjnych.</p>
       
       <p className="lead">
-      <Link to="/coins/" className="btn btn-primary btn-lg" role="button" style={{marginTop:"3rem"}}>Kryptowaluty</Link>
+      <Link to="/coins" className="btn btn-primary btn-lg" role="button" style={{marginTop:"3rem"}}>Kryptowaluty</Link>
        </p>
       </div>
     </>

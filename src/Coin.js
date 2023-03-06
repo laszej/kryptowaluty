@@ -33,7 +33,7 @@ const Coins = () => {
 
         <h6>Zmiana w ciągu tygodnia: {coin.priceChange1w} $</h6>
 
-        <a href={coin.websiteUrl}>Strona kryptowaluty</a>
+        <a href={coin.websiteUrl} target="_blank">Strona kryptowaluty</a>
 
         <Link to="/coins" style={{marginTop: "1rem"}}>powrót</Link>
   

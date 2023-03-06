@@ -1,6 +1,6 @@
 import './index.css';
 
-import {HashRouter as Router, Switch, Route,} from "react-router-dom";
+import {BrowserRouter as Router, Switch,Route,} from "react-router-dom";
 import Navbar from './Navbar'
 import Home from './Home';
 import Coins from './Coins';
