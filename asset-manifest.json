@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.34c8046c.css",
-    "main.js": "/static/js/main.05662f38.js",
-    "static/media/bitcoin.svg": "/static/media/bitcoin.73f2339883323c36edd0e8131dcffa92.svg",
-    "index.html": "/index.html",
-    "main.34c8046c.css.map": "/static/css/main.34c8046c.css.map",
-    "main.05662f38.js.map": "/static/js/main.05662f38.js.map"
+    "main.css": "/laszej.github.io/kryptowaluty/static/css/main.34c8046c.css",
+    "main.js": "/laszej.github.io/kryptowaluty/static/js/main.d4d447fd.js",
+    "static/media/bitcoin.svg": "/laszej.github.io/kryptowaluty/static/media/bitcoin.73f2339883323c36edd0e8131dcffa92.svg",
+    "index.html": "/laszej.github.io/kryptowaluty/index.html",
+    "main.34c8046c.css.map": "/laszej.github.io/kryptowaluty/static/css/main.34c8046c.css.map",
+    "main.d4d447fd.js.map": "/laszej.github.io/kryptowaluty/static/js/main.d4d447fd.js.map"
   },
   "entrypoints": [
     "static/css/main.34c8046c.css",
-    "static/js/main.05662f38.js"
+    "static/js/main.d4d447fd.js"
   ]
 }
